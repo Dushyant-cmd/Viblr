@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorAccent">#151515</color>
+    <color name="bottombarbackground">#0a90ed</color>
+    <color name="colorBottomNavigationInactive">#414141</color>
+-->
+
+    <color name="colorPrimaryDark">#2a2a2a</color>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="bottombarbackground">#2C98FF</color>
+    <color name="colorBottomNavigationInactive">#ffffff</color>
+
+    <color name="textcolor_followButton">#FFFFFF</color>
+    <color name="bg_followButton">#f5f6f6</color>
+    <color name="icon_text_color">#ffffff</color>
+    <color name="profile_title_textcolor">#222222</color>
+    <color name="black_background">#80000000</color>
+    <color name="black_border">#4D414141</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+
+
+    <!-- app palette
+    <color name="primary">#1976D2</color>  Blue 700
+    <color name="secondary">#F57C00</color>  Orange 700
+    <color name="error">#E53935</color>  Red 600 -->
+</resources>

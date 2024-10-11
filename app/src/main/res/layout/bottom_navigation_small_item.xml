@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/bottom_navigation_small_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_navigation_colors">
+
+    <ImageView
+        android:id="@+id/bottom_navigation_small_item_icon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="2dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/bottom_navigation_small_item_title"
+        style="@style/BottomNavigationViewTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:alpha="1"
+        android:gravity="center"
+        android:lines="1"
+        tools:text="Label One" />
+
+    <TextView
+        android:id="@+id/bottom_navigation_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="12dp"
+        android:alpha="0"
+        android:background="@drawable/notification_background"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/bottom_navigation_notification_padding"
+        android:paddingRight="@dimen/bottom_navigation_notification_padding"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/bottom_navigation_notification_text_size"
+        android:textStyle="bold"
+        android:layout_marginStart="12dp" />
+
+</FrameLayout>

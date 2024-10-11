@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:background="@color/black_background">
+
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:padding="@dimen/activity_vertical_margin"
+    android:background="@drawable/unfollow_bg"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            style="@style/TitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:text="@string/title_upload_options"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/btnRecord"
+                android:onClick="onRecordButtonClicked"
+                style="@style/BottomOptionTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:drawableTop="@drawable/ic_icon_camera"
+                android:gravity="center"
+                android:layout_marginTop="12dp"
+                android:text="@string/button_record" />
+
+            <TextView
+                android:onClick="onGallerybuttonClicked"
+                style="@style/BottomOptionTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:drawableTop="@drawable/ic_icon_gallery"
+                android:gravity="center"
+                android:text="@string/button_gallery" />
+        </LinearLayout>
+    <View
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginRight="-16dp"
+    android:layout_marginLeft="-16dp"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#414141"/>
+        <ImageView
+            android:background="@drawable/unfollow_bg"
+            android:onClick="onCancelButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:tint="#000000" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@android:color/black"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center">
+
+        <ImageView
+            android:contentDescription="@string/Back"
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/toolbar_elevation"
+            app:srcCompat="@drawable/ic_icon_back" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvActionBarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_weight="6.5"
+        />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_search_icon_white"
+            android:id="@+id/btnSearch"
+            android:visibility="visible"
+            android:layout_margin="@dimen/toolbar_elevation"
+            android:contentDescription="@string/search_hint"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_user_icon_white"
+            android:id="@+id/btnUserIcon"
+            android:visibility="visible"
+            android:layout_margin="@dimen/toolbar_elevation"
+            android:contentDescription="@string/UserProfile"
+            />
+    </LinearLayout>
+</LinearLayout>

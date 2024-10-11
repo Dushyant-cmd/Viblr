@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.UploadEditActivity"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    tools:showIn="@layout/activity_upload_edit">
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:hint="@string/video_title"
+        style="@style/CustomEditTextStyle"
+        android:maxLines="2"
+
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/etDescription"
+        style="@style/CustomEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/video_description"
+        android:inputType="text"
+        android:maxLines="5"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/etTitle"
+        tools:layout_editor_absoluteX="16dp" />
+    <ImageView
+
+        android:id="@+id/ivThumbnail"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:src="@drawable/example_picture"
+        app:layout_constraintTop_toBottomOf="@+id/etDescription"
+        tools:ignore="MissingConstraints"
+        android:layout_margin="@dimen/toolbar_elevation"/>
+    <TextView
+        android:layout_margin="@dimen/toolbar_elevation"
+        android:id="@+id/tvCategory"
+        app:layout_constraintTop_toBottomOf="@+id/ivThumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/RegistertitleTextStyle"
+        android:text="@string/title_category"
+        android:layout_marginBottom="4dp"
+        tools:ignore="MissingConstraints" />
+    <Spinner
+        android:layout_marginTop="@dimen/toolbar_elevation"
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:dropDownWidth="match_parent"
+        android:popupElevation="3dp"
+        android:prompt="@string/title_country"
+        android:textColor="#252525"
+        android:textSize="14sp"
+        android:entries="@array/category_name_array"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/tvCategory"
+        tools:ignore="RtlSymmetry"
+        >
+        <requestFocus />
+    </Spinner>
+
+    <TextView
+        android:layout_margin="@dimen/toolbar_elevation"
+        android:id="@+id/tvLanguage"
+        style="@style/RegistertitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_Language"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCategory"
+        tools:ignore="MissingConstraints" />
+    <Spinner
+        android:entries="@array/language_arrray"
+        android:layout_marginTop="@dimen/toolbar_elevation"
+        android:id="@+id/spinnerLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:dropDownWidth="match_parent"
+        android:popupElevation="3dp"
+        android:prompt="@string/title_country"
+        android:textColor="#252525"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/tvLanguage"
+        tools:ignore="RtlSymmetry">
+        <requestFocus />
+    </Spinner>
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/toolbar_elevation"
+        android:text="Location"
+        android:textColor="#424242"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinnerLanguage"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerLanguage"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_editor_absoluteX="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp" />
+
+    <Button
+        android:id="@+id/btnSubmitUpload"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/bottombarbackground"
+        android:foregroundGravity="center_horizontal"
+        android:letterSpacing="0.2"
+        android:onClick="uploadSubmitButtonClicked"
+        android:text="@string/title_upload"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLocation"
+        app:layout_constraintVertical_bias="0.3"
+        tools:layout_editor_absoluteX="48dp" />
+</LinearLayout>

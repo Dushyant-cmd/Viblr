@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="@layout/activity_search"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SearchActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppBarOverlay"
+        android:visibility="gone">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/PopupOverlay"
+          />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <br.com.mauker.materialsearchview.MaterialSearchView
+        android:id="@+id/search_view"
+        style="@style/MaterialSearchViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSearchCustom"
+            android:visibility="gone"
+            android:layout_marginTop="56dp"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin" />
+    </br.com.mauker.materialsearchview.MaterialSearchView>
+<androidx.appcompat.widget.SearchView
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:id="@+id/searchView"
+    style="@style/CustomEditTextStyle"
+    app:queryHint="Search videos"
+    android:visibility="gone"
+    app:searchIcon="@drawable/ic_icon_back_black">
+    <requestFocus/>
+    </androidx.appcompat.widget.SearchView>
+   <ProgressBar
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:id="@+id/pbSearch"
+       android:visibility="gone"
+       android:layout_gravity="center_horizontal"
+       />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSearch"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_margin" />
+</LinearLayout>

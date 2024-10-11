@@ -1,0 +1,371 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+//apply plugin: 'io.fabric'
+//apply plugin: 'com.google.firebase.crashlytics'
+
+/*
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+*/
+
+// Create a variable called keystorePropertiesFile, and initialize it to your
+// keystore.properties file, in the rootProject folder.
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+
+// Initialize a new Properties() object called keystoreProperties.
+def keystoreProperties = new Properties()
+
+// Load your keystore.properties file into the keystoreProperties object.
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+android {
+    ndkVersion "21.0.6113669"
+    compileSdkVersion 31
+    defaultConfig {
+        applicationId "com.veblr.android.veblrapp"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 12
+        versionName "1.0.07"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        //javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true
+        multiDexEnabled true
+        //ext.enableCrashlytics = true
+        vectorDrawables.useSupportLibrary = true
+
+        ndk {
+            // Tells Gradle to build outputs for the following ABIs and package
+            // them into your APK.
+            abiFilters 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
+        }
+        //ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64','arm64'
+
+    }
+    aaptOptions {
+        noCompress "veblr-logo.png"
+        noCompress "msyh.ttf"
+    }
+    /*dexOptions {
+        //incremental true
+        javaMaxHeapSize "4g"
+    }*/
+
+    signingConfigs {
+        config {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+    buildTypes {
+
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+    }
+    /*splits {
+        abi {
+            enable true
+            reset()
+            include  'armeabi-v7a', 'arm64-v8a','x86', 'x86_64'
+            universalApk true
+        }
+    }*/
+    /*  sourceSets {
+        main {
+            jniLibs.srcDirs = ["libs"]
+        }
+    }*/
+    android {
+        aaptOptions.cruncherEnabled = false
+        aaptOptions.useNewCruncher = false
+    }
+    /*   externalNativeBuild {
+        ndkBuild {
+            path 'src/main/jni/Application.mk'
+        }
+    }*/
+    packagingOptions {
+
+        pickFirst 'lib/arm64-v8a/libavformat.so'
+        pickFirst 'lib/arm64-v8a/libswresample.so'
+        pickFirst 'lib/arm64-v8a/libavcodec.so'
+        pickFirst 'lib/arm64-v8a/libavdevice.so'
+        pickFirst 'lib/arm64-v8a/libavfilter.so'
+        pickFirst 'lib/arm64-v8a/libavutil.so'
+        pickFirst 'lib/arm64-v8a/libffmpeg.so'
+        pickFirst 'lib/arm64-v8a/libpostproc.so'
+        pickFirst 'lib/arm64-v8a/libswscale.so'
+        pickFirst 'lib/arm64-v8a/libjniavformat.so'
+        pickFirst 'lib/arm64-v8a/libjniswresample.so'
+        pickFirst 'lib/arm64-v8a/libjniavcodec.so'
+        pickFirst 'lib/arm64-v8a/libjniavdevice.so'
+        pickFirst 'lib/arm64-v8a/libjniavfilter.so'
+        pickFirst 'lib/arm64-v8a/libjniavutil.so'
+        pickFirst 'lib/arm64-v8a/libjniffmpeg.so'
+        pickFirst 'lib/arm64-v8a/libjnipostproc.so'
+        pickFirst 'lib/arm64-v8a/libjniswscale.so'
+        pickFirst 'lib/armeabi-v7a/libjniavutil.so'
+        pickFirst 'lib/armeabi-v7a/libjniavcodec.so'
+        pickFirst 'lib/armeabi-v7a/libjniavdevice.so'
+        pickFirst 'lib/armeabi-v7a/libjniavfilter.so'
+        pickFirst 'lib/armeabi-v7a/libjniavformat.so'
+        pickFirst 'lib/armeabi-v7a/libjniffmpeg.so'
+        pickFirst 'lib/armeabi-v7a/libjnipostproc.so'
+        pickFirst 'lib/armeabi-v7a/libjniswresample.so'
+        pickFirst 'lib/armeabi-v7a/libjniswscale.so'
+
+        pickFirst 'lib/armeabi-v7a/libavutil.so'
+        pickFirst 'lib/armeabi-v7a/libavdevice.so'
+        pickFirst 'lib/armeabi-v7a/libswresample.so'
+        pickFirst 'lib/armeabi-v7a/libswscale.so'
+        pickFirst 'lib/armeabi-v7a/libavcodec.so'
+        pickFirst 'lib/armeabi-v7a/libavformat.so'
+        pickFirst 'lib/armeabi-v7a/libavfilter.so'
+        pickFirst 'lib/armeabi-v7a/libpostproc.so'
+        pickFirst '/lib/armeabi-v7a/libffmpeg.so'
+
+
+        exclude 'lib/armeabi-v7a/libavcodec.so'
+        exclude 'lib/armeabi-v7a/libavdevice.so'
+        exclude 'lib/armeabi-v7a/libavfilter.so'
+        exclude 'lib/armeabi-v7a/libavformat.so'
+        exclude 'lib/armeabi-v7a/libavutil.so'
+        exclude 'lib/armeabi-v7a/libffmpeg.so'
+        exclude 'lib/armeabi-v7a/libpostproc.so'
+        exclude 'lib/armeabi-v7a/libswresample.so'
+        exclude 'lib/armeabi-v7a/libswscale.so'
+
+        exclude 'lib/armeabi-v7a/libjniavcodec.so'
+        exclude 'lib/armeabi-v7a/libjniavdevice.so'
+        exclude 'lib/armeabi-v7a/libjniavfilter.so'
+        exclude 'lib/armeabi-v7a/libjniavformat.so'
+        exclude 'lib/armeabi-v7a/libjniavutil.so'
+        exclude 'lib/armeabi-v7a/libjniffmpeg.so'
+        exclude 'lib/armeabi-v7a/libjnipostproc.so'
+        exclude 'lib/armeabi-v7a/libjniswresample.so'
+        exclude 'lib/armeabi-v7a/libjniswscale.so'
+
+
+        exclude 'lib/arm64-v8a/libavcodec.so'
+        exclude 'lib/arm64-v8a/libavdevice.so'
+        exclude 'lib/arm64-v8a/libavfilter.so'
+        exclude 'lib/arm64-v8a/libavformat.so'
+        exclude 'lib/arm64-v8a/libavutil.so'
+        exclude 'lib/arm64-v8a/libffmpeg.so'
+        exclude 'lib/arm64-v8a/libpostproc.so'
+        exclude 'lib/arm64-v8a/libswscale.so'
+        exclude 'lib/arm64-v8a/libswresample.so'
+
+
+        exclude 'lib/arm64-v8a/libjniavcodec.so'
+        exclude 'lib/arm64-v8a/libjniavdevice.so'
+        exclude 'lib/arm64-v8a/libjniavfilter.so'
+        exclude 'lib/arm64-v8a/libjniavformat.so'
+        exclude 'lib/arm64-v8a/libjniavutil.so'
+        exclude 'lib/arm64-v8a/libjniffmpeg.so'
+        exclude 'lib/arm64-v8a/libjnipostproc.so'
+        exclude 'lib/arm64-v8a/libjniswscale.so'
+        exclude 'lib/arm64-v8a/libjniswresample.so'
+
+        exclude 'lib/armeabi/libavformat.so'
+        exclude 'lib/armeabi/libswresample.so'
+        exclude 'lib/armeabi/libavcodec.so'
+        exclude 'lib/armeabi/libavdevice.so'
+        exclude 'lib/armeabi/libavfilter.so'
+        exclude 'lib/armeabi/libavutil.so'
+        exclude 'lib/armeabi/libffmpeg.so'
+        exclude 'lib/armeabi/libpostproc.so'
+        exclude 'lib/armeabi/libswscale.so'
+
+        exclude 'lib/x86_64/libavformat.so'
+        exclude 'lib/x86_64/libswresample.so'
+        exclude 'lib/x86_64/libavcodec.so'
+        exclude 'lib/x86_64/libavdevice.so'
+        exclude 'lib/x86_64/libavfilter.so'
+        exclude 'lib/x86_64/libavutil.so'
+        exclude 'lib/x86_64/libffmpeg.so'
+        exclude 'lib/x86_64/libpostproc.so'
+        exclude 'lib/x86_64/libswscale.so'
+        exclude 'lib/x86_64/libjniavformat.so'
+        exclude 'lib/x86_64/libjniswresample.so'
+        exclude 'lib/x86_64/libjniavcodec.so'
+        exclude 'lib/x86_64/libjniavdevice.so'
+        exclude 'lib/x86_64/libjniavfilter.so'
+        exclude 'lib/x86_64/libjniavutil.so'
+        exclude 'lib/x86_64/libjniffmpeg.so'
+        exclude 'lib/x86_64/libjnipostproc.so'
+        exclude 'lib/x86_64/libjniswscale.so'
+
+ /*       exclude 'lib/arm64-v8a/libjniavformat.so'
+        exclude 'lib/arm64-v8a/libswresample.so'
+        exclude 'lib/arm64-v8a/libavcodec.so'
+        exclude 'lib/arm64-v8a/libavdevice.so'
+        exclude 'lib/arm64-v8a/libavfilter.so'
+        exclude 'lib/arm64-v8a/libavutil.so'
+        exclude 'lib/arm64-v8a/libffmpeg.so'
+        exclude 'lib/arm64-v8a/libpostproc.so'
+        exclude 'lib/arm64-v8a/libswscale.so'
+
+*/
+        exclude 'lib/x86/libavformat.so'
+        exclude 'lib/x86/libswresample.so'
+        exclude 'lib/x86/libavcodec.so'
+        exclude 'lib/x86/libavdevice.so'
+        exclude 'lib/x86/libavfilter.so'
+        exclude 'lib/x86/libavutil.so'
+        exclude 'lib/x86/libffmpeg.so'
+        exclude 'lib/x86/libpostproc.so'
+        exclude 'lib/x86/libswscale.so'
+
+        exclude 'lib/x86/libjniavformat.so'
+        exclude 'lib/x86/libjniswresample.so'
+        exclude 'lib/x86/libjniavcodec.so'
+        exclude 'lib/x86/libjniavdevice.so'
+        exclude 'lib/x86/libjniavfilter.so'
+        exclude 'lib/x86/libjniavutil.so'
+        exclude 'lib/x86/libjniffmpeg.so'
+        exclude 'lib/x86/libjnipostproc.so'
+        exclude 'lib/x86/libjniswscale.so'
+
+
+        exclude 'lib/arm/libjniavformat.so'
+        exclude 'lib/arm/libjniswresample.so'
+        exclude 'lib/arm/libjniavcodec.so'
+        exclude 'lib/arm/libjniavdevice.so'
+        exclude 'lib/arm/libjniavfilter.so'
+        exclude 'lib/arm/libjniavutil.so'
+        exclude 'lib/arm/libjniffmpeg.so'
+        exclude 'lib/arm/libjnipostproc.so'
+        exclude 'lib/arm/libjniswscale.so'
+    }
+}
+configurations {
+    all*.exclude group: 'com.google.guava', module: 'listenablefuture'
+}
+android {
+    /*dataBinding {
+        enabled = true
+    }*/
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    /*buildFeatures {
+        viewBinding true
+    }*/
+    packagingOptions {
+        exclude 'AndroidManifest.xml' //This fixes a bug in FAN 5.0.1
+    }
+}
+ext {
+    versions = [
+            'javacv': '1.5.1',
+            'ffmpeg': '4.1.3'
+
+    ]
+}
+
+dependencies {
+
+
+    def paging_version = "2.1.1"
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.google.code.findbugs'
+    })
+    implementation "com.github.bumptech.glide:glide:4.9.0"
+    implementation 'com.google.android.exoplayer:exoplayer:2.8.4'
+    implementation 'com.google.android.exoplayer:extension-ima:2.8.4'
+
+    implementation 'br.com.mauker.materialsearchview:materialsearchview:1.2.3'
+    implementation 'androidx.room:room-runtime:2.4.2'
+    annotationProcessor 'androidx.room:room-compiler:2.4.2'
+
+    implementation "androidx.paging:paging-runtime:$paging_version" // For  use paging-runtime-ktx
+    testImplementation "androidx.paging:paging-common:$paging_version" // For  use paging-common-ktx
+    implementation "androidx.paging:paging-rxjava2:$paging_version" // For  use paging-rxjava2-ktx
+
+//retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.2.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.0.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.0'
+    implementation 'org.apache.commons:commons-text:1.6'
+
+    //adnetwork
+    //implementation 'com.facebook.android:audience-network-sdk:5.4.1'
+    implementation 'com.facebook.android:audience-network-sdk:6.+'
+    implementation 'com.facebook.infer.annotation:infer-annotation:0.18.0'
+
+    implementation 'com.google.firebase:firebase-core:17.4.4'
+    // Add the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics:21.0.0'
+    //implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+    implementation 'com.google.firebase:firebase-crashlytics:18.2.11'
+    // Add the SDK for Firebase Cloud Messaging
+    implementation 'com.google.firebase:firebase-messaging:20.2.3'
+    //  implementation 'com.google.firebase:firebase-perf:19.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.gms:play-services-auth:18.0.0'
+    implementation 'com.google.android.gms:play-services-auth-api-phone:17.4.0'
+
+    //workerthread
+    implementation 'android.arch.work:work-runtime:1.0.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'androidx.emoji:emoji:1.1.0'
+
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'com.google.android.material:material:1.3.0-alpha01'
+
+    //edit video
+    implementation 'com.github.yangjie10930:EpMedia:v0.9.5'
+    implementation 'com.amosyuen.ffmpegvideorecorder:ffmpeg-video-recorder:2.0.3'
+    implementation 'com.getkeepsafe.relinker:relinker:1.3.1'
+
+    implementation 'io.tus.android.client:tus-android-client:0.1.8'
+    implementation 'io.tus.java.client:tus-java-client:0.4.1'
+    implementation "com.splitwise:tokenautocomplete:3.0.1@aar"
+    implementation 'com.googlecode.libphonenumber:libphonenumber:8.2.0'
+    //implementation 'com.google.android.gms:play-services-ads:21.0.0'
+    //implementation 'com.google.ads.mediation:adcolony:4.8.0.0'
+    implementation 'com.adcolony:sdk:4.8.0'
+    implementation 'com.google.android.gms:play-services-ads-identifier:17.1.0'
+    implementation 'com.google.android.gms:play-services-ads:21.0.0'
+
+    implementation 'androidx.core:core-splashscreen:1.0.0-beta02'
+
+    //implementation files('C:\\Program Files\\Java\\jre1.8.0_121\\lib\\ext\\jfxrt.jar')
+    //implementation files('C:\\Program Files\\Java\\jre1.8.0_333\\lib\\ext\\jfxrt.jar')
+    implementation files('libs\\jfxrt.jar')
+
+    // implementation 'javax.xml.bind:jaxb-api:2.3.0'
+}
+/*
+configurations.all {
+    resolutionStrategy.eachDependency {`z
+        def requested = details.requested
+        if (requested.group == "androidx") {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion "26.+"
+            }
+        }
+    }
+}*/

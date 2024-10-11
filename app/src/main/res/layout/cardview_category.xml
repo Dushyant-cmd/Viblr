@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="@dimen/toolbar_elevation"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryDark"
+    android:id="@+id/cvCategory">
+
+    <ImageView
+        android:contentDescription="@string/title_catagory"
+        android:id="@+id/ivIconCatagory"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/ic_news_politics_cat_icon"
+        />
+    <TextView
+        android:id="@+id/tvCatagoryName"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:text="@string/title_catagory"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

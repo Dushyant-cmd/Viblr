@@ -1,0 +1,453 @@
+<resources>
+    <string name="app_name">VeblrApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_catagory">Categories</string>
+    <string name="title_upload_options">Upload video from here</string>
+    <string name="title_upload">Upload</string>
+    <string name="title_upload_recording">Recording</string>
+    <string name="title_upload_gallery">Gallery</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_followed">Followed</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_search">Search</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_channels">Channels</string>
+    <string name="title_details">Details</string>
+    <string name="title_share">Share</string>
+    <string name="search_share">Share</string>
+
+    <string name="title_followers">Followers</string>
+    <string name="title_save">Save</string>
+    <string name="button_record">Record</string>
+    <string name="button_gallery">Gallery</string>
+    <string name="button_retry">Retry</string>
+    <string name="video_title">Video Title</string>
+    <string name="video_description">Video Desciption</string>
+    <string name="Back">Back</string>
+    <string name="Options">Options</string>
+    <string name="UserImage">User Image</string>
+    <string name="title_activity_upload_edit">UploadEditActivity</string>
+    <string name="title_activity_Preview">Preview video</string>
+    <string name="UserProfile">UserProfile</string>
+    <string name="More">More</string>
+    <string name="Send">Send comment</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="channel_name_upload">upload_video_channel</string>
+    <string name="channel_description_upload">upload_video_channel_by_the_user</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="buttontext_follow">Follow</string>
+    <string name="title_activity_register">REGISTER</string>
+    <string name="title_country">COUNTRY</string>
+    <string name="title_mobilenumber">MOBILE NUMBER</string>
+    <string name="title_email">EMAIL ID</string>
+    <string name="title_entermobilenumber">Enter your mobile number</string>
+    <string name="title_name">NAME</string>
+    <string name="title_hintname">Enter your name</string>
+    <string name="title_password">PASSWORD</string>
+    <string name="title_repassword">RE-ENTER PASSWORD</string>
+    <string name="title_hintPassword">Enter your password</string>
+    <string name="title_hintRePassword">Re-Enter your password</string>
+    <string name="already_account">ALREADY HAVE AN ACCOUNT? </string>
+    <string name="signin">SIGN IN</string>
+    <string name="login">LOGIN</string>
+    <string name="forgotPW_btn">SUBMIT</string>
+    <string name="thumbnail">Video thumbnail</string>
+    <string name="volume">Volume on video</string>
+    <string name="views">Views on video</string>
+    <string name="comments">Comments on video</string>
+    <string name="likes">Likes on video</string>
+    <string name="Follow">Following List</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_pw">FORGOT PASSWORD?</string>
+    <string name="or"> OR </string>
+    <string name="no_account">DON\'T HAVE AN ACCOUNT ?</string>
+    <string name="signup">SIGN UP NOW</string>
+    <string name="username">Username</string>
+    <string name="userID">\@UserId</string>
+    <string name="title_following">Following</string>
+    <string name="title_aboutUs">About Us</string>
+    <string name="title_category">Select Category</string>
+    <string name="title_Language">Select Language</string>
+    <string name="title_Location">Select Loaction</string>
+    <string name="title_tag">Select Tags</string>
+    <string name="processing">Processing...</string>
+
+    <string-array name="CountryArray">
+        <item>India (91)</item>
+        <item>Afghanistan (93)</item>
+        <item>Albania (355)</item>
+        <item>Algeria (213)</item>
+        <item>American Samoa (1684)</item>
+        <item>Andorra (376)</item>
+        <item>Angola (244)</item>
+        <item>Anguilla (1264)</item>
+        <item>Antigua and Barbuda (1268)</item>
+        <item>Argentina (54)</item>
+        <item>Armenia (374)</item>
+        <item>Aruba (297)</item>
+        <item>Australia (61)</item>
+        <item>Austria (43)</item>
+        <item>Azerbaijan (994)</item>
+        <item>Bahamas (1242)</item>
+        <item>Bahrain (973)</item>
+        <item>Bangladesh (880)</item>
+        <item>Barbados (1248)</item>
+        <item>Belarus (375)</item>
+        <item>Belgium (32)</item>
+        <item>Belize (501)</item>
+        <item>Benin (229)</item>
+        <item>Bhutan (975)</item>
+        <item>Bolivia (591)</item>
+        <item>Bosnia - Herzegovina (387)</item>
+        <item>Botswana (267)</item>
+        <item>Brazil (55)</item>
+        <item>Brunei (673)</item>
+        <item>Bulgaria (359)</item>
+        <item>Burkina Faso (226)</item>
+        <item>Burundi (257)</item>
+        <item>Cambodia (855)</item>
+        <item>Cameroon (237)</item>
+        <item>Canada (1)</item>
+        <item>Cape Verde (238)</item>
+        <item>Central African Republic (236)</item>
+        <item>Chile (56)</item>
+        <item>Costa Rica (506)</item>
+        <item>People\'s Republic of China (86)</item>
+        <item>Colombia (57)</item>
+        <item>Comoros (269)</item>
+        <item>Republic of Congo (242)</item>
+        <item>Democratic Republic of Congo (243)</item>
+        <item>Costa Rica (506)</item>
+        <item>Croatia (385)</item>
+        <item>Cuba (53)</item>
+        <item>Cyprus (357)</item>
+        <item>Czech Republic (420)</item>
+        <item>Denmark (45)</item>
+        <item>Djibouti (253)</item>
+        <item>Dominica (1767)</item>
+        <item>Dominican Republic (1)</item>
+        <item>East Timor (670)</item>
+        <item>Ecuador (593)</item>
+        <item>Egypt (20)</item>
+        <item>El Salvador (503)</item>
+        <item>Equatorial Guinea (240)</item>
+        <item>Eritrea (291)</item>
+        <item>Estonia (372)</item>
+        <item>Ethiopia (251)</item>
+        <item>Fiji (679)</item>
+        <item>Finland (358)</item>
+        <item>France (33)</item>
+        <item>French Dept/Terr Indian Ocean (262)</item>
+        <item>French Guiana (594)</item>
+        <item>Gambia (220)</item>
+        <item>Georgia (995)</item>
+        <item>Germany (49)</item>
+        <item>Ghana (233)</item>
+        <item>Gibraltar (350)</item>
+        <item>Greece (30)</item>
+        <item>Grenada (1473)</item>
+        <item>Guatemala (502)</item>
+        <item>Guadeloupe (590)</item>
+        <item>Guinea (224)</item>
+        <item>Guinea-Bissau (245)</item>
+        <item>Guyana (592)</item>
+        <item>Haiti (509)</item>
+        <item>Honduras (504)</item>
+        <item>Hong Kong (852)</item>
+        <item>Hungary (36)</item>
+        <item>Iceland (354)</item>
+        <item>Indonesia (62)</item>
+        <item>Iran (98)</item>
+        <item>Iraq (964)</item>
+        <item>Ireland (353)</item>
+        <item>Israel (972)</item>
+        <item>Italy (39)</item>
+        <item>Ivory Coast (225)</item>
+        <item>Jamaica (1876)</item>
+        <item>Japan (81)</item>
+        <item>Jordan (962)</item>
+        <item>Kazakhstan (7)</item>
+        <item>Kenya (254)</item>
+        <item>Kosovo (386)</item>
+        <item>Kosovo (377)</item>
+        <item>Kuwait (965)</item>
+        <item>Kyrgyzstan (996)</item>
+        <item>Laos (856)</item>
+        <item>Latvia (371)</item>
+        <item>Lebanon (961)</item>
+        <item>Lesotho (266)</item>
+        <item>Libya (218)</item>
+        <item>Liechtenstein (423)</item>
+        <item>Lithuania (370)</item>
+        <item>Luxembourg (352)</item>
+        <item>Macau (853)</item>
+        <item>Republic of Macedonia (389)</item>
+        <item>Madagascar (261)</item>
+        <item>Malawi (265)</item>
+        <item>Malaysia (60)</item>
+        <item>Maldives (960)</item>
+        <item>Mali (223)</item>
+        <item>Malta (356)</item>
+        <item>Martinique (596)</item>
+        <item>Mauritania (222)</item>
+        <item>Mauritius (230)</item>
+        <item>Mexico (52)</item>
+        <item>Moldova (373)</item>
+        <item>Monaco (377)</item>
+        <item>Montenegro (382)</item>
+        <item>Mongolia (976)</item>
+        <item>Morocco (212)</item>
+        <item>Mozambique (258)</item>
+        <item>Myanmar (95)</item>
+        <item>Namibia (264)</item>
+        <item>Nauru (674)</item>
+        <item>Nepal (977)</item>
+        <item>Netherlands (31)</item>
+        <item>New Zealand (64)</item>
+        <item>Nicaragua (505)</item>
+        <item>Nigeria (234)</item>
+        <item>North Korea (850)</item>
+        <item>Norway (47)</item>
+        <item>Oman (968)</item>
+        <item>Pakistan (92)</item>
+        <item>Palestinian Authority (970)</item>
+        <item>Panama (507)</item>
+        <item>Papua New Guinea (675)</item>
+        <item>Paraguay (595)</item>
+        <item>Peru (51)</item>
+        <item>Philippines (63)</item>
+        <item>Poland (48)</item>
+        <item>Portugal (351)</item>
+        <item>Puerto Rico (1)</item>
+        <item>Qatar (974)</item>
+        <item>Romania (40)</item>
+        <item>Russia (Russian Federation) (7)</item>
+        <item>Rwanda (250)</item>
+        <item>Samoa (685)</item>
+        <item>San Marino (378)</item>
+        <item>Sao Tome and Principe (239)</item>
+        <item>Saudi Arabia (966)</item>
+        <item>Senegal (221)</item>
+        <item>Serbia (381)</item>
+        <item>Seychelles (248)</item>
+        <item>Sierra Leone (232)</item>
+        <item>Singapore (65)</item>
+        <item>Slovakia (Slovak Republic) (421)</item>
+        <item>Slovenia (386)</item>
+        <item>South Africa (27)</item>
+        <item>South Korea (82)</item>
+        <item>Spain (34)</item>
+        <item>Sri Lanka (94)</item>
+        <item>Sudan (249)</item>
+        <item>Suriname (597)</item>
+        <item>Swaziland (268)</item>
+        <item>Sweden (46)</item>
+        <item>Switzerland (41)</item>
+        <item>Syria (963)</item>
+        <item>Taiwan (886)</item>
+        <item>Tajikistan (992)</item>
+        <item>Tanzania (255)</item>
+        <item>Thailand (66)</item>
+        <item>Togo (228)</item>
+        <item>Tunisia (216)</item>
+        <item>Turkey (90)</item>
+        <item>Turkmenistan (993)</item>
+        <item>Uganda (256)</item>
+        <item>Ukraine (380)</item>
+        <item>United Arab Emirates (971)</item>
+        <item>United Kingdom (44)</item>
+        <item>United States (USA) (1)</item>
+        <item>Uruguay (598)</item>
+        <item>Uzbekistan (998)</item>
+        <item>Vanuatu (678)</item>
+        <item>Venezuela (58)</item>
+        <item>Vietnam (84)</item>
+        <item>Yemen (967)</item>
+        <item>Zambia (260)</item>
+        <item>Zimbabwe (263)</item>
+    </string-array>
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+    </string>
+    <string name="network_retry_message">No internet connection.Kindly turn on WIFI or Mobile data.</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string-array name="category_name_array">
+        <item>News/Politics</item>
+        <item>Entertainment</item>
+        <item>Sports</item>
+        <item>Kids</item>
+        <item>Science/Tech</item>
+        <item>Beauty Tips</item>
+        <item>Devotional</item>
+        <item>People/Blogs</item>
+        <item>Health / Fitness</item>
+        <item>Autos/Vehicle</item>
+        <item>Cooking</item>
+        <item>Travel/Events</item>
+        <item>Education</item>
+        <item>Comedy/Amazing</item>
+        <item>Tv / Shows</item>
+        <item>Pets /  Animals</item>
+        <item>Dance</item>
+        <item>Movies</item>
+        <item>Music</item>
+        <item>Trailer</item>
+        <item>Gaming</item>
+    </string-array>
+    <string-array name="category_link_array">
+        <item>news-politics</item>
+        <item>entertainment</item>
+        <item>sports</item>
+        <item>kids</item>
+        <item>science-tech</item>
+        <item>beauty-tips</item>
+        <item>devotional</item>
+        <item>people-blogs</item>
+        <item>health-fitness</item>
+        <item>autos-vehicle</item>
+        <item>cooking</item>
+        <item>travel-events</item>
+        <item>education</item>
+        <item>comedy-amazing</item>
+        <item>tv-shows</item>
+        <item>pets-animals</item>
+        <item>dance</item>
+        <item>movies</item>
+        <item>music</item>
+        <item>trailer</item>
+        <item>gaming</item>
+    </string-array>
+    <string-array name="category_id_array">
+        <item>331c94</item>
+        <item>331d92</item>
+        <item>331c90</item>
+        <item>331d9d</item>
+        <item>331c91</item>
+        <item>331f93</item>
+        <item>3d1a9d</item>
+        <item>331c97</item>
+        <item>33199c</item>
+        <item>301c</item>
+        <item>331f92</item>
+        <item>331c93</item>
+        <item>331d93</item>
+        <item>3d1494</item>
+        <item>341c94</item>
+        <item>331c96</item>
+        <item>331f9d</item>
+        <item>341c9d</item>
+        <item>331a97</item>
+        <item>331f90</item>
+        <item>331d9c</item>
+    </string-array>
+    <string-array name="language_arrray">
+        <item name="english">English</item>
+        <item name="Hindi">हिन्दी</item>
+        <item name="Bangla">বাংলা</item>
+        <item name="Telugu">తెలుగు</item>
+        <item name="Tamil">தமிழ்</item>
+        <item name="Malayalam">മലയാളം</item>
+        <item name="Kannada">ಕನ್ನಡ</item>
+        <item name="Marathi">मराठी</item>
+        <item name="Odia">ଓଡିଆ</item>
+        <item name="Gujarati">ગુજરાતી</item>
+        <item name="Punjabi">ਪੰਜਾਬੀ</item>
+        <item name="Assamese">অসমীয়া</item>
+        <item name="Urdu">اردو</item>
+        <item name="Bahasa Indonesia">Bahasa Indonesia</item>
+    </string-array>
+
+    <string-array name="languageId_array">
+        <item name="en">371d959e</item>
+        <item name="hi">371d959d</item>
+        <item name="bn">371d959c</item>
+        <item name="te">371d959b</item>
+        <item name="ta">371d959a</item>
+        <item name="ml">371d9597</item>
+        <item name="kn">371d9599</item>
+        <item name="mr">371d9598</item>
+        <item name="or">371d9596</item>
+        <item name="gu">371d949f</item>
+        <item name="pa">371d949e</item>
+        <item name="as">371d949d</item>
+        <item name="ur">371d949c</item>
+        <item name="id">371d949b</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>Month</item>
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>Aug</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="day_array">
+        <item>Day</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string name="title_activity_ffmpeg_record">FFmpegRecordActivity</string>
+    <string-array name="user_channel_array">
+        <item>Amit</item>
+    </string-array>
+
+    <string name="facebook_app_id">645554502284747</string>
+    <string name="facebook_placement_id">424758711275495_730941363990560</string>
+    <string name="image_desc">Ad image</string>
+    <string name="icon_desc">Ad icon</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="load_interstitial">Load Interstitial</string>
+    <string name="show_ad">Show Ad</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://veblr.com/.well-known/assetlinks.json\" }]</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:background="@color/black_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/unfollow_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_vertical_margin">
+<TextView
+    android:clickable="true"
+    android:autoLink="phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+    android:textSize="24sp"
+    android:textColor="@color/bottombarbackground"
+    android:text="Kindly, Give a missed call to \n     +914071011900 \n this number for verification "/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:weightSum="2"
+    android:foregroundGravity="top">
+        <TextView
+            style="@style/TitleTextStyle"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time:"
+            android:textSize="32sp"
+
+            android:textAlignment="center"
+            android:textColor="@color/bottombarbackground"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timer"
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="32sp"
+        android:text="00:00"
+        android:textAlignment="center"
+        android:textColor="@color/bottombarbackground"
+        android:textStyle="bold" />
+    </LinearLayout>
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:progressTint="@color/bottombarbackground"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

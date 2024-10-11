@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: io.tus.android.client:tus-android-client:0.1.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cb2a5c8aae832ed295ab903d62b61f92/transformed/jetified-tus-android-client-0.1.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cb2a5c8aae832ed295ab903d62b61f92/transformed/jetified-tus-android-client-0.1.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cb2a5c8aae832ed295ab903d62b61f92/transformed/jetified-tus-android-client-0.1.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.tus.android.client/tus-android-client/0.1.8/b1c33d6aa25dec494c79c4a7a94ab29f14083425/tus-android-client-0.1.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.tus.android.client/tus-android-client/0.1.8/d068842657e80e541a8f68355589dc38a537a093/tus-android-client-0.1.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

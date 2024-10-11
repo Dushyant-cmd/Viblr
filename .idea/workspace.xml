@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29214538-fadb-4f3e-a59f-608d67361208" name="Default Changelist" comment="Clean code in VeblrApplication, MainActivity, HomeFragment, HomeRepository, ApiInterface and AppUtils class">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Android.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SplashScreenSampleActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/enter_from_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/exit_to_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_gradient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_arrow_back_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_report_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen_old.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/render.experimental.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assetlinks.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/assetlinks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/debug/app.aab" beforeDir="false" afterPath="$PROJECT_DIR$/app/debug/app.aab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fr/app-fr.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fr/app.aab" beforeDir="false" afterPath="$PROJECT_DIR$/app/fr/app.aab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fr/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app.aab" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app.aab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/veblr/android/veblrapp/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/veblr/android/veblrapp/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/mauker/MsvAuthority.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/mauker/MsvAuthority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/BrowserActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/BrowserActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/CommentListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/CommentListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/CustomExpandableListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/CustomExpandableListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/FeaturedUserAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/FeaturedUserAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/FollowedListRecyclerViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/FollowedListRecyclerViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/GridAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/GridAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/ListofMyVideosAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/ListofMyVideosAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/NotificationListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/NotificationListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/OnSwipeTouchListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/OnSwipeTouchListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/SearchSuggestionListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/SearchSuggestionListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/VideoPageFragmentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/VideoPageFragmentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/ViewPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/ViewPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/CommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/Converters.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/Converters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/LikeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/LikeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/SearchHistoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/SearchHistoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/VIdeoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/VIdeoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/VideoKeyWordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/dao/VideoKeyWordDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/Resonse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/Resonse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseVideoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseVideoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseVideoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseVideoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseVideoUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/ResponseVideoUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/SearchDataSOurceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/SearchDataSOurceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/SearchDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/datasource/SearchDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/location/GPSTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/location/GPSTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/ApiError.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/ApiError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Channel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Channel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/ChannelDetailResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/ChannelDetailResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Channels.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Channels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/ErrorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/ErrorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Followed.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Followed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Following.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Following.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/JSONBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/JSONBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Like.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Like.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/SearchHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/SearchHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VIdeoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VIdeoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VideoCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VideoCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VideoDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VideoDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VideoHashTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VideoHashTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VideoKeyWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VideoKeyWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VideoWatchedHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VideoWatchedHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/ApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/InterstitialFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/InterstitialFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/SaveCountryListTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/SaveCountryListTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/notification/MyFirebaseMessagingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/notification/MyFirebaseMessagingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/notification/MyWorkerNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/notification/MyWorkerNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/record/CameraHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/record/CameraHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/record/FFmpegRecordActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/record/FFmpegRecordActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/record/FixedRatioCroppedTextureView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/record/FixedRatioCroppedTextureView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/record/FrameToRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/record/FrameToRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/record/MiscUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/record/MiscUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/record/RecordFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/record/RecordFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/ChannelProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/ChannelProfileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/HomeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/HomeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/LoginRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/LoginRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/RegisterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/RegisterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/SearchRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/SearchRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/UserProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/UserProfileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/VideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/VideoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/room/AppDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/room/AppDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/services/FileUploadNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/services/FileUploadNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/services/NetworkCheckerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/services/NetworkCheckerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/AccountSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/AccountSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/CategoryFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/CategoryFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/ChannelSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/ChannelSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/CircularImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/CircularImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/CustomViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/CustomViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/EditVideoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/EditVideoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/EqualSpacingItemDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/EqualSpacingItemDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FlipPagetransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FlipPagetransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/GalleryFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/GalleryFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HorizontalSwipeRefreshLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HorizontalSwipeRefreshLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/MaterialProgressDrawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/MaterialProgressDrawable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/NewMessageNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/NewMessageNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/NotificationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/NotificationFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/PaginationScrollListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/PaginationScrollListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/PreviewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/PreviewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/ProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/ProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/RecyclerViewGridAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/RecyclerViewGridAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SplashScreenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SplashScreenActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/UploadEditActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/UploadEditActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/UploadFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/UploadFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/UserProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/UserProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/tags/TagsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/tags/TagsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/tags/TagsCompletionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/tags/TagsCompletionView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/tags/TokenTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/tags/TokenTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/upload/UploadIntentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/upload/UploadIntentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/upload/Uploadworker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/upload/Uploadworker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/AppUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/AppUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/NotificationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/NotificationUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/RequestPermissionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/RequestPermissionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/SaveListtask.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/SaveListtask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/VeblrApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/VeblrApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/VerticalSpacingItemDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/VerticalSpacingItemDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerRecyclerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerRecyclerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerRecyclerViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerRecyclerViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/PlayerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/PlayerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/PlayerManagerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/PlayerManagerInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/RecorderActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/RecorderActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/viewmodel/HomeViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/viewmodel/HomeViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/viewmodel/SearchViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/viewmodel/SearchViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/enter_from_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/enter_from_left.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/exit_to_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/exit_to_right.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/animator/fragment_slide_left_enter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/animator/fragment_slide_left_enter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/animator/fragment_slide_left_exit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/animator/fragment_slide_left_exit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/animator/fragment_slide_right_enter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/animator/fragment_slide_right_enter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/animator/fragment_slide_right_exit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/animator/fragment_slide_right_exit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/animator/slide_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/animator/slide_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/animator/slide_out.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/animator/slide_out.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_icon_beautytips.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_icon_beautytips.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bottom_navigation_colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bottom_navigation_colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bottom_navigation_colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bottom_navigation_colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/check_button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/check_button.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cursor_drawable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cursor_drawable.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/follow_button_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/follow_button_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/followed_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/followed_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_comedy_amazing_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_comedy_amazing_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_edit_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_edit_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_entertainment_cat_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_entertainment_cat_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_camera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_camera.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_comment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_comment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_follow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_follow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_gallery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_gallery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_more_option.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_more_option.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_upload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_upload.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menusettings_black_24px.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menusettings_black_24px.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_movies_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_movies_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_mute_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_mute_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_science_technology_cat_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_science_technology_cat_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_svg_logo_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_svg_logo_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_tv_shows_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_tv_shows_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_user_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_user_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_user_icon_white.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_user_icon_white.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_v_app_logo_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_v_app_logo_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_v_app_logo_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_v_app_logo_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_v_app_logo_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_v_app_logo_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/notification_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/notification_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/post_bottombar_share_color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/post_bottombar_share_color.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ripple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ripple.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ripple_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ripple_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spinner_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spinner_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spinner_sla.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spinner_sla.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/unfollow_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/unfollow_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-v21/bottom_navigation_small_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-v21/bottom_navigation_small_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-v21/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-v21/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/account_summery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/account_summery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_browser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_browser.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_preview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_preview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_record.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_record.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_recorder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recorder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_upload_edit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_upload_edit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_video_watch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_video_watch.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ad_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ad_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/bottom_navigation_small_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom_navigation_small_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/bottombar_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottombar_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cardview_account_videos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_account_videos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cardview_category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_category.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cardview_comment_listitem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_comment_listitem.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cardview_followitem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_followitem.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cardview_horizontal_scrollitem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_horizontal_scrollitem.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cardview_notification_itemview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_notification_itemview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cardview_post_listitem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_post_listitem.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cardview_videos_listitem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_videos_listitem.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/channel_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/channel_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/contact_token.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/contact_token.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_ffmpeg_record.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_ffmpeg_record.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_upload_edit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_upload_edit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_player_controller.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_player_controller.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/forgot_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/forgot_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_category.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_follow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_follow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_interstitial.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_interstitial.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_timer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_timer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_upload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_upload.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_video_watch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_video_watch.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/gallery_gridview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/gallery_gridview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/image_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_group.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_group.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/load_more.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/load_more.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/mobile_no_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/mobile_no_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/notification_badge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/notification_badge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/register_actionabar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/register_actionabar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/retry_network.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/retry_network.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/scrollview_content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/scrollview_content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/search_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/search_suggestion_listitem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_suggestion_listitem.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/search_view_lo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_view_lo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/spinner_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/tag_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tag_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/upload_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/upload_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/user_list_recyclerview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/user_list_recyclerview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/user_vertical.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/user_vertical.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/video_edit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/video_edit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/video_progress.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/video_progress.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/video_watch_actionbar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/video_watch_actionbar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_register_save.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_register_save.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/top_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/top_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_logo1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_logo1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_logo1_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_logo1_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/font_res.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/font_res.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/file_providers_path.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/file_providers_path.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/searchable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/searchable.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/veblr/android/veblrapp/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/veblr/android/veblrapp/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keystore.properties" beforeDir="false" afterPath="$PROJECT_DIR$/keystore.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/androidTest/java/com/veblr/veblrvideoplayerlibrary/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/Networking/ApiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/Networking/ApiInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/Networking/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/subtitle/CaptionsView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/subtitle/DownloadCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/subtitle/DownloadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/utility/EmptyCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/utility/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/utility/VideoFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/utility/VideoPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/BVBrightnessCallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/BVPAdController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/BVPFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/BVPVideoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/BVPWithAdPlayBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/BetterVideoCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/BetterVideoPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/BetterVideoProgressCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/HelperMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/IUserMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/OnSwipeTouchListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/PortraitOrientation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/ResizeSurfaceView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/java/com/veblr/veblrvideoplayerlibrary/vp/SampleVideoPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-anydpi/ic_fullscreen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-anydpi/ic_fullscreen_exit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-hdpi/ic_action_pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-hdpi/ic_action_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-hdpi/ic_backward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-hdpi/ic_bvp_action.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-hdpi/ic_forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-hdpi/ic_fullscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-hdpi/ic_fullscreen_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-mdpi/ic_action_pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-mdpi/ic_action_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-mdpi/ic_backward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-mdpi/ic_bvp_action.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-mdpi/ic_forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-mdpi/ic_fullscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-mdpi/ic_fullscreen_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xhdpi/ic_action_pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xhdpi/ic_action_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xhdpi/ic_backward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xhdpi/ic_bvp_action.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xhdpi/ic_forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xhdpi/ic_fullscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xhdpi/ic_fullscreen_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxhdpi/ic_action_pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxhdpi/ic_action_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxhdpi/ic_backward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxhdpi/ic_bvp_action.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxhdpi/ic_forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxhdpi/ic_fullscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxhdpi/ic_fullscreen_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxhdpi/ic_media_fullscreen_shrink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxhdpi/ic_media_fullscreen_stretch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxxhdpi/ic_action_pause.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxxhdpi/ic_action_play.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxxhdpi/ic_backward.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxxhdpi/ic_bvp_action.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable-xxxhdpi/ic_forward.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable/bvp_action_pause.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable/bvp_action_play.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable/bvp_action_restart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable/bvp_controls_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable/bvp_topbar_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable/ic_arrow_back_white_18px.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable/ic_fullscreen_expand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable/ic_fullscreen_skrink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/drawable/ic_zoom_out_icon_svg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/layout/bvp_include_controls.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/layout/bvp_include_progress.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/layout/bvp_include_subtitle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/layout/bvp_include_surface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/layout/bvp_include_topbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/layout/fragment_video.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/layout/media_controller.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/layout/video_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/values-large/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/values/attrs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/values/integer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/veblrvideoplayerlibrary/src/test/java/com/veblr/veblrvideoplayerlibrary/ExampleUnitTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/rakeshkumar/.android/avd/Pixel_5_API_33.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/keystore.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/build.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/local.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/settings.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VeblrApp.iml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2AFBp0hdgxP2wLe2sOZSuz2QCXP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="BundleExportedModule" value="VeblrApp.app" />
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_g973f-RZ8M31VWBLA" />
+    <property name="DEBUGGABLE_PROCESS" value="com.veblr.android.veblrapp" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="d070f7a1" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2022-07-04T17:23:20.526Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-view/Users/rakeshkumar/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-ui/2.8.4/2134efab96523cc0a9551c11e2d7bbfd7a01df9d/exoplayer-ui-2.8.4-sources.jar!/com/google/android/exoplayer2/ui/PlayerView.java_SELECTED" value="PlayerView" />
+    <property name="android-custom-view/Users/rakeshkumar/AndroidStudioProjects/VeblrApp/app/src/main/java/com/veblr/android/veblrapp/ui/HorizontalSwipeRefreshLayout.java_HorizontalSwipeRefreshLayout_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-view/Users/rakeshkumar/AndroidStudioProjects/VeblrApp/app/src/main/java/com/veblr/android/veblrapp/ui/HorizontalSwipeRefreshLayout.java_SELECTED" value="HorizontalSwipeRefreshLayout" />
+    <property name="android-custom-view/Users/rakeshkumar/AndroidStudioProjects/VeblrApp/app/src/main/java/com/veblr/android/veblrapp/ui/tags/TokenTextView.java_SELECTED" value="TokenTextView" />
+    <property name="android-custom-view/Users/rakeshkumar/AndroidStudioProjects/VeblrApp/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerRecyclerView.java_SELECTED" value="AutoVideoPlayerRecyclerView" />
+    <property name="android-custom-view/Users/rakeshkumar/AndroidStudioProjects/VeblrAppOld/VeblrApp/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerRecyclerView.java_SELECTED" value="AutoVideoPlayerRecyclerView" />
+    <property name="android-custom-viewC:/Users/rakes/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-ui/2.8.4/2134efab96523cc0a9551c11e2d7bbfd7a01df9d/exoplayer-ui-2.8.4-sources.jar!/com/google/android/exoplayer2/ui/PlayerView.java_SELECTED" value="PlayerView" />
+    <property name="android-custom-viewC:/Users/rakes/Downloads/VeblrApp/app/src/main/java/com/veblr/android/veblrapp/ui/CustomViewPager.java_SELECTED" value="CustomViewPager" />
+    <property name="android-custom-viewC:/Users/rakes/Downloads/VeblrApp/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerRecyclerView.java_SELECTED" value="AutoVideoPlayerRecyclerView" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter" />
+    <property name="multi-representation-previewC:/Users/rakes/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-ui/2.8.4/2134efab96523cc0a9551c11e2d7bbfd7a01df9d/exoplayer-ui-2.8.4-sources.jar!/com/google/android/exoplayer2/ui/PlayerView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/rakes/Downloads/VeblrApp/app/src/main/java/com/veblr/android/veblrapp/ui/CustomViewPager.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/rakes/Downloads/VeblrApp/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerRecyclerView.java_selected" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-72369761">
+      <recent name="com.veblr.android.veblrapp.ui.tags" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="C:\Users\rakes\Downloads\VeblrApp\app\src\main\res\layout" />
+      <recent name="C:\Users\rakes\Downloads\VeblrApp\app\libs" />
+    </key>
+    <key name="android.template.1819240607">
+      <recent name="com.veblr.android.veblrapp" />
+    </key>
+    <key name="android.template.-670047280">
+      <recent name="com.veblr.android.veblrapp.ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rakes\Downloads\VeblrApp\app\src\main\res\anim" />
+    </key>
+    <key name="android.template.-1067970943">
+      <recent name="com.veblr.android.veblrapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.veblr.android.veblrapp.ui" />
+      <recent name="com.veblr.android.veblrapp.repositories" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="VeblrApp.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29214538-fadb-4f3e-a59f-608d67361208" name="Default Changelist" comment="" />
+      <created>1654595631127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654595631127</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Modify gradle from 5.1.1 to 6.5&#10;Modify Crashlytics to latest Firebase Crashlytics&#10;Add jfxrt.jar file in library folder&#10;Modify minimum sdk version 19 to 21&#10;Fix Date Parsing Error in AppUtil Class&#10;Remove fabric and Adcolony old library">
+      <created>1655376331054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655376331054</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Modify gradle from 5.1.1 to 6.5&#10;Modify Crashlytics to latest Firebase Crashlytics&#10;Add jfxrt.jar file in library folder&#10;Modify minimum sdk version 19 to 21&#10;Fix Date Parsing Error in AppUtil Class&#10;Remove fabric and Adcolony old library&#10;Add report dialog in player&#10;Fix full screen player feature">
+      <created>1657002324165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657002324165</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update facebook sdk&#10;Update Adcolony Sdk&#10;Update the facebook ads implementation in VeblrApplication, VideoWatchActivity, VideoWatchFragment and InterstitialFragment class&#10;Update Adcolony ads implementation in VideoWatchActivity class">
+      <created>1657350348765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657350348765</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix left to Right animation in VideoWatchActivity">
+      <created>1657354666592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657354666593</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add back button in VideoWatchFragment&#10;Add Orientation in in Full screen video player in VideoWatchFragment&#10;Ads are coming in after 5 list item in listing page of HomeFragment">
+      <created>1657643499074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657643499074</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Clean code in VeblrApplication, MainActivity, HomeFragment, HomeRepository and AppUtils class">
+      <created>1658210544596</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658210544596</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modify gradle from 5.1.1 to 6.5&#10;Modify Crashlytics to latest Firebase Crashlytics&#10;Add jfxrt.jar file in library folder&#10;Modify minimum sdk version 19 to 21&#10;Fix Date Parsing Error in AppUtil Class&#10;Remove fabric and Adcolony old library" />
+    <MESSAGE value="Modify gradle from 5.1.1 to 6.5&#10;Modify Crashlytics to latest Firebase Crashlytics&#10;Add jfxrt.jar file in library folder&#10;Modify minimum sdk version 19 to 21&#10;Fix Date Parsing Error in AppUtil Class&#10;Remove fabric and Adcolony old library&#10;Add report dialog in player&#10;Fix full screen player feature" />
+    <MESSAGE value="Update facebook sdk&#10;Update Adcolony Sdk&#10;Update the facebook ads implementation in VeblrApplication, VideoWatchActivity, VideoWatchFragment and InterstitialFragment class&#10;Update Adcolony ads implementation in VideoWatchActivity class" />
+    <MESSAGE value="Fix left to Right animation in VideoWatchActivity" />
+    <MESSAGE value="Add back button in VideoWatchFragment&#10;Add Orientation in in Full screen video player in VideoWatchFragment&#10;Ads are coming in after 5 list item in listing page of HomeFragment" />
+    <MESSAGE value="Clean code in VeblrApplication, MainActivity, HomeFragment, HomeRepository and AppUtils class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean code in VeblrApplication, MainActivity, HomeFragment, HomeRepository and AppUtils class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/ApiService.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/ApiService.java</url>
+          <line>170</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/ApiService.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/ApiService.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/ApiService.java</url>
+          <line>178</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>509</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>511</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>515</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>525</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/VeblrApplication.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/VeblrApplication.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/VeblrApplication.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/HomeRepository.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/AppUtils.java</url>
+          <line>1135</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/AppUtils.java</url>
+          <line>1136</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/AppUtils.java</url>
+          <line>1138</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>318</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>311</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>319</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>242</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>262</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>269</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>276</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>295</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>301</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>310</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>348</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>357</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>372</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>387</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>398</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>412</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>423</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>426</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>437</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>460</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>476</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>478</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>481</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>522</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>531</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SplashScreenActivity.java</url>
+          <line>473</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SearchActivity.java</url>
+          <line>302</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>391</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>390</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>388</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>313</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>249</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>257</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>266</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>471</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>527</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>613</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>605</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>1120</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>1133</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>471</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>472</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>474</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>1145</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>1146</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>1148</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>178</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>1097</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>1108</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>1109</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>1121</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>1131</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>567</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>390</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>315</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>292</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>510</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>506</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>509</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/ListOfVideosAdapter.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>240</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/FollowedListRecyclerViewAdapter.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/FollowedListRecyclerViewAdapter.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/FollowedListRecyclerViewAdapter.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>264</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>280</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>486</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>817</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>824</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchFragment.java</url>
+          <line>826</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/VeblrApplication.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/repositories/HomeRepository.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/VeblrApplication.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/AppUtils.java</url>
+          <line>1267</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/AppUtils.java</url>
+          <line>511</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/AppUtils.java</url>
+          <line>506</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>438</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>439</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/AppUtils.java</url>
+          <line>1327</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>226</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>235</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>252</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>549</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>598</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/ApiService.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/ApiService.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/ApiService.java</url>
+          <line>272</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/ApiService.java</url>
+          <line>277</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/viewmodel/HomeViewModel.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SplashScreenActivity.java</url>
+          <line>514</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SplashScreenActivity.java</url>
+          <line>249</line>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/SplashScreenActivity.java</url>
+          <line>250</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/viewmodel/HomeViewModel.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>333</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/AppUtils.java</url>
+          <line>1216</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/util/AppUtils.java</url>
+          <line>1221</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>317</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>318</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>328</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>329</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VIdeoItem.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VIdeoItem.java</url>
+          <line>228</line>
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VIdeoItem.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VIdeoItem.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VIdeoItem.java</url>
+          <line>236</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/model/VIdeoItem.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/VideoWatchActivity.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerViewHolder.java</url>
+          <line>181</line>
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerViewHolder.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerViewHolder.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerViewHolder.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerViewHolder.java</url>
+          <line>280</line>
+          <option name="timeStamp" value="432" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerViewHolder.java</url>
+          <line>306</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerViewHolder.java</url>
+          <line>304</line>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerViewHolder.java</url>
+          <line>282</line>
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerViewHolder.java</url>
+          <line>284</line>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerViewHolder.java</url>
+          <line>286</line>
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>254</line>
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="439" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/FollowedListRecyclerViewAdapter.java</url>
+          <line>199</line>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/FollowedListRecyclerViewAdapter.java</url>
+          <line>285</line>
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/FollowedListRecyclerViewAdapter.java</url>
+          <line>270</line>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>170</line>
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>260</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>279</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>290</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>311</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="456" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/FollowFragment.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="457" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/adapter/FollowedListRecyclerViewAdapter.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="458" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>362</line>
+          <option name="timeStamp" value="459" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>368</line>
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerRecyclerViewAdapter.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/videoplayer/AutoVideoPlayerRecyclerViewAdapter.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>336</line>
+          <option name="timeStamp" value="463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/ui/HomeFragment.java</url>
+          <line>344</line>
+          <option name="timeStamp" value="464" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veblr/android/veblrapp/network/ApiInterface.java</url>
+          <line>37</line>
+          <properties class="com.veblr.android.veblrapp.network.ApiInterface" method="getResponseValidToken" />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

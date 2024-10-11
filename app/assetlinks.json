@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.veblr.android.veblrapp",
+    "sha256_cert_fingerprints":
+    ["60:5D:FD:53:79:E2:A7:D9:E8:2E:D7:3D:51:3B:88:03:95:80:61:F7:4E:64:16:25:CB:7A:7E:0A:6C:38:AA:B6"]
+  }
+},
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "web",
+      "site": "https://veblr.com"
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.veblr.android.veblrapp",
+      "sha256_cert_fingerprints":
+      ["60:5D:FD:53:79:E2:A7:D9:E8:2E:D7:3D:51:3B:88:03:95:80:61:F7:4E:64:16:25:CB:7A:7E:0A:6C:38:AA:B6"]
+    }
+  }]

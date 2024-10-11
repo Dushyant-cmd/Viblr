@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.exoplayer:exoplayer-core:2.8.4@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b1f5ca1b0cffc4ed3e9b7ae568c194a6/transformed/jetified-exoplayer-core-2.8.4/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/712e990d4d535383d37d7cb71c861404/transformed/jetified-exoplayer-core-2.8.4/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0c31c8e451ef2922a33ccc8652c4ce36/transformed/jetified-exoplayer-core-2.8.4/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b1f5ca1b0cffc4ed3e9b7ae568c194a6/transformed/jetified-exoplayer-core-2.8.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b1f5ca1b0cffc4ed3e9b7ae568c194a6/transformed/jetified-exoplayer-core-2.8.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b1f5ca1b0cffc4ed3e9b7ae568c194a6/transformed/jetified-exoplayer-core-2.8.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/712e990d4d535383d37d7cb71c861404/transformed/jetified-exoplayer-core-2.8.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/712e990d4d535383d37d7cb71c861404/transformed/jetified-exoplayer-core-2.8.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/712e990d4d535383d37d7cb71c861404/transformed/jetified-exoplayer-core-2.8.4/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0c31c8e451ef2922a33ccc8652c4ce36/transformed/jetified-exoplayer-core-2.8.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0c31c8e451ef2922a33ccc8652c4ce36/transformed/jetified-exoplayer-core-2.8.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0c31c8e451ef2922a33ccc8652c4ce36/transformed/jetified-exoplayer-core-2.8.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-core/2.8.4/eafb8ea2791cc9e7a259c98d23d180d22e66d3d0/exoplayer-core-2.8.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-core/2.8.4/afbe2fe4bc026b8cf418e1107cdcd0c65b6cca9b/exoplayer-core-2.8.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

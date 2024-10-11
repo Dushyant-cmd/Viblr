@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false">
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#414141"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+<LinearLayout
+
+    android:gravity="center_vertical"
+    android:layout_weight="0.25"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/toolbar_elevation"
+    android:layout_marginBottom="@dimen/toolbar_elevation"
+    android:layout_marginRight="@dimen/toolbar_elevation"
+    android:layout_marginLeft="@dimen/activity_vertical_margin"
+    android:layout_marginStart="@dimen/activity_vertical_margin"
+    android:layout_marginEnd="@dimen/toolbar_elevation">
+    <com.veblr.android.veblrapp.ui.CircularImageView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_user_icon_white"
+        android:id="@+id/tvUserImage"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/toolbar_elevation"
+        android:layout_marginBottom="@dimen/toolbar_elevation"
+        android:layout_weight="1.8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/title_following"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/tvDateofPosted"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Sep 08,2019"
+                android:textColor="#f2f2f2"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <androidx.emoji.widget.EmojiTextView
+            android:clickable="true"
+            android:id="@+id/tvCommentText"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textSize="10sp"
+            android:ellipsize="end"
+            android:textColor="#f2f2f2"
+            android:text="@string/new_message_notification_placeholder_text_template"
+            />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/llfChannel"
+    android:layout_margin="@dimen/toolbar_elevation">
+
+    <com.veblr.android.veblrapp.ui.CircularImageView
+        android:id="@+id/ivUserIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="@dimen/toolbar_elevation"
+        android:layout_marginStart="@dimen/toolbar_elevation"
+        android:layout_marginLeft="@dimen/toolbar_elevation"
+        android:layout_marginEnd="@dimen/toolbar_elevation"
+        android:layout_marginRight="@dimen/toolbar_elevation"
+        android:src="@mipmap/ic_launcher_logo_2_round" />
+
+    <androidx.appcompat.widget.AppCompatToggleButton
+        android:id="@+id/btnFollow"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/follow_button_selector"
+        android:button="@drawable/check_button"
+        android:elevation="@dimen/toolbar_elevation"
+        android:fontFamily="ariel"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:paddingLeft="6dp"
+        android:paddingTop="3dp"
+        android:paddingRight="6dp"
+        android:paddingBottom="4dp"
+        android:text="@string/buttontext_follow"
+        android:textAllCaps="false"
+        android:textColor="@color/bottombarbackground"
+        android:textOff="@string/buttontext_follow"
+        android:textOn="@string/title_following"
+        android:textSize="@dimen/textsize_followbutton"
+        android:textStyle="bold"
+        android:visibility="visible" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "758583231319",
+    "firebase_url": "https://veblr-app-news.firebaseio.com",
+    "project_id": "veblr-app-news",
+    "storage_bucket": "veblr-app-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758583231319:android:276e4191d73db116",
+        "android_client_info": {
+          "package_name": "com.veblr.android.veblrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758583231319-8274pk3flpuvsji6hgnnavvn5csh8v9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyqhSPJBn1h5pUKpZw_1zKUapPciqr2lk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758583231319-8274pk3flpuvsji6hgnnavvn5csh8v9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

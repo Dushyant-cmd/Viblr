@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/toolbar_elevation"
+    >
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_margin="@dimen/toolbar_elevation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+<ImageView
+    app:srcCompat="@drawable/ic_history_white"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5" />
+    <TextView
+        android:id="@+id/tvSearchText"
+        android:textSize="14sp"
+        android:textColor="#424242"
+        android:layout_weight="1.5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/toolbar_elevation"
+        android:background="#9A9A9A"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

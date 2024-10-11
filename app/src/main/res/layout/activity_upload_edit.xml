@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.UploadEditActivity"
+    android:background="@color/white"
+    >
+
+
+    <include layout="@layout/content_upload_edit" />
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>-->
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.UploadEditActivity"
+    android:paddingLeft="@dimen/toolbar_elevation"
+    android:paddingRight="@dimen/toolbar_elevation"
+    android:background="@color/colorPrimaryDark"
+
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/pbupload"
+
+        >
+     <ProgressBar
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"/>
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/lluploadbar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/toolbar_elevation"
+        android:layout_marginLeft="@dimen/toolbar_elevation"
+        android:weightSum="1"
+        android:layout_marginStart="@dimen/toolbar_elevation">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivThumbnail"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/example_picture"
+            />
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/exo_icon_play"
+                />
+        </FrameLayout>
+        <Button
+            android:foregroundGravity="right"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_weight="0.5"
+            android:id="@+id/btnSubmitUpload"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/bottombarbackground"
+            android:letterSpacing="0.2"
+            android:text="@string/title_upload"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+<ScrollView
+    android:layout_below="@+id/lluploadbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:hint="@string/video_title"
+        style="@style/CustomEditTextStyle"
+        android:maxLines="2"
+        android:maxEms="150"
+        android:minEms="3"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="@dimen/toolbar_elevation"
+        android:layout_marginBottom="@dimen/toolbar_elevation"
+        />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etDescription"
+        style="@style/CustomEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/video_description"
+        android:inputType="text|textMultiLine"
+        android:maxLines="512"
+        android:maxEms="1500"
+        android:minEms="3"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp" />
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/toolbar_elevation"
+        android:layout_marginBottom="@dimen/toolbar_elevation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_margin="@dimen/toolbar_elevation"
+            android:id="@+id/tvUserChoose"
+            app:layout_constraintTop_toBottomOf="@+id/ivThumbnail"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"
+            style="@style/CustomEditTextStyle"
+            android:text="Choose Channel" />
+        <Spinner
+            android:background="@color/gray_50"
+            android:layout_weight="0.6"
+            android:entries="@array/user_channel_array"
+            android:layout_marginTop="@dimen/toolbar_elevation"
+            android:id="@+id/spinnerChooseUser"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:dropDownWidth="match_parent"
+            android:popupElevation="3dp"
+            android:prompt="@string/title_country"
+            android:textColor="#252525"
+            android:textSize="14sp">
+            <requestFocus />
+        </Spinner>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatMultiAutoCompleteTextView
+        android:id="@+id/tagSearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Tags"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:imeOptions="actionDone"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:lineSpacingExtra="1dp"
+        android:nextFocusDown="@+id/editText"
+        android:inputType="text|textNoSuggestions|textMultiLine"
+        android:focusableInTouchMode="true"
+        android:visibility="visible"
+        />
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/toolbar_elevation"
+        android:layout_marginBottom="@dimen/toolbar_elevation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+        android:layout_margin="@dimen/toolbar_elevation"
+        android:id="@+id/tvCategory"
+        app:layout_constraintTop_toBottomOf="@+id/ivThumbnail"
+        android:layout_width="0dp"
+        android:layout_weight="0.4"
+        android:layout_height="wrap_content"
+        style="@style/CustomEditTextStyle"
+        android:text="@string/title_category" />
+    <Spinner
+        android:background="@color/gray_50"
+        android:layout_weight="0.6"
+        android:entries="@array/category_name_array"
+        android:layout_marginTop="@dimen/toolbar_elevation"
+        android:id="@+id/spinnerCategory"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:dropDownWidth="match_parent"
+        android:popupElevation="3dp"
+        android:prompt="@string/title_country"
+        android:textSize="14sp"
+        >
+        <requestFocus />
+    </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/toolbar_elevation"
+        android:layout_marginBottom="@dimen/toolbar_elevation"
+        >
+    <TextView
+        android:layout_weight="0.4"
+        android:layout_margin="@dimen/toolbar_elevation"
+        android:id="@+id/tvLanguage"
+        style="@style/CustomEditTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_Language" />
+    <Spinner
+        android:background="@color/gray_50"
+        android:layout_weight="0.6"
+        app:title="@string/title_Language"
+        android:entries="@array/language_arrray"
+        android:layout_marginTop="@dimen/toolbar_elevation"
+        android:id="@+id/spinnerLanguage"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:dropDownWidth="match_parent"
+        android:popupElevation="3dp"
+        android:prompt="@string/title_Language"
+        android:textSize="14sp">
+        <requestFocus />
+    </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/toolbar_elevation"
+        android:layout_marginBottom="@dimen/toolbar_elevation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+    <TextView
+        android:layout_margin="@dimen/toolbar_elevation"
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:layout_height="wrap_content"
+        android:text="Adult (Only 18+) "
+        style="@style/CustomEditTextStyle"
+        android:foregroundGravity="center_horizontal"/>
+        <Switch
+            android:background="@color/black_50"
+            android:layout_margin="@dimen/toolbar_elevation"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:visibility="gone"
+        style="@style/CustomEditTextStyle"
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/toolbar_elevation"
+        android:text="@string/title_Location"
+        android:textColor="#424242"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp" />
+    <HorizontalScrollView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chipgroupLocation">
+    </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+    <com.veblr.android.veblrapp.ui.tags.TagsCompletionView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Tags"
+        android:imeOptions="actionDone"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:lineSpacingExtra="1dp"
+        android:nextFocusDown="@+id/editText"
+        android:inputType="text|textNoSuggestions|textMultiLine"
+        android:focusableInTouchMode="true"
+        android:visibility="gone"
+        />
+</LinearLayout>
+</ScrollView>
+  </LinearLayout>

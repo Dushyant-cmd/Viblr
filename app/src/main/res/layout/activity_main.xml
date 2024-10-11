@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ui.SplashScreenActivity"
+    android:keepScreenOn="true">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent" >
+    <com.veblr.android.veblrapp.ui.CustomViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="48dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_50"
+    android:visibility="gone"
+    android:id="@+id/llPB"
+    android:gravity="center"
+    android:foregroundGravity="center"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:id="@+id/tvtvmessage"
+        />
+    <ProgressBar
+        android:background="@android:color/white"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <!-- <include layout="@layout/bottombar_menu" />-->
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#414141" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:id="@+id/navigation_home"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnHomeButtonClicked"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/title_home"
+                    app:srcCompat="@drawable/ic_icon_home" />
+
+                <TextView
+                    android:id="@+id/tvHome"
+                    style="@style/BottomNavigationViewTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_home" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/navigation_category"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnCatagoryButtonClicked"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivCata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/title_home"
+                    app:srcCompat="@drawable/ic_category_icon" />
+
+                <TextView
+                    android:id="@+id/tvCata"
+                    style="@style/BottomNavigationViewTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_catagory" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/navigation_upload"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnUploadButtonClicked"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/title_upload"
+                    app:srcCompat="@drawable/ic_icon_camera"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/navigation_dashboard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="OnFollowButtonClicked"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/ivFollow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/title_followers"
+                    app:srcCompat="@drawable/ic_icon_follow" />
+
+                <TextView
+                    android:id="@+id/tvFollow"
+                    style="@style/BottomNavigationViewTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buttontext_follow" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/navigation_notifications"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="OnNotificationButtonClicked"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp">
+
+                    <ImageView
+                        android:id="@+id/ivNoti"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/title_notifications"
+                        app:srcCompat="@drawable/ic_icon_notification" />
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_gravity="end"
+                        android:contentDescription="@string/title_notifications"
+                        android:src="@drawable/notification_background" />
+
+                    <TextView
+                        android:id="@+id/tvBadge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|top"
+                        android:foregroundGravity="right"
+                        android:gravity="end"
+                        android:paddingEnd="4dp"
+                        android:paddingRight="4dp"
+                        android:text="9"
+                        android:textColor="@android:color/white"
+                        android:textSize="7sp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tvNoti"
+                    style="@style/BottomNavigationViewTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_notifications" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- <com.google.android.material.bottomnavigation.BottomNavigationView
+       android:visibility="gone"
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:background="@android:color/white"
+        app:itemIconTint="@drawable/bottom_navigation_colors"
+        app:itemTextColor="@drawable/bottom_navigation_colors"
+        app:itemIconSize="18dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:labelVisibilityMode="labeled"
+        app:itemHorizontalTranslationEnabled="false"
+        app:itemTextAppearanceActive="@style/BottomNavigationViewTextStyle"
+        app:itemTextAppearanceInactive="@style/BottomNavigationViewTextStyle"
+        >    </com.google.android.material.bottomnavigation.BottomNavigationView>
+-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

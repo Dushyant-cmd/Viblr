@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black_border"/>
+  <LinearLayout
+      android:background="@android:color/white"
+      android:weightSum="5"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:baselineAligned="false">
+      <LinearLayout
+
+          android:onClick="OnHomeButtonClicked"
+          android:id="@+id/navigation_home"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:backgroundTint="@drawable/ripple"
+          android:clickable="true"
+          android:focusable="auto"
+          android:gravity="center"
+          android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/title_home"
+                android:src="@drawable/ic_icon_home"
+                android:id="@+id/ivHome"
+                 />
+             <TextView
+                 android:id="@+id/tvHome"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/title_home"
+                style="@style/BottomNavigationViewTextStyle"
+                 />
+
+        </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/navigation_category"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:background="@drawable/ripple"
+          android:clickable="true"
+          android:focusable="true"
+          android:gravity="center"
+          android:onClick="OnCatagoryButtonClicked"
+          android:orientation="vertical">
+
+          <ImageView
+              android:id="@+id/ivCata"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:contentDescription="@string/title_home"
+              android:src="@drawable/ic_category_icon" />
+
+          <TextView
+              android:id="@+id/tvCata"
+              style="@style/BottomNavigationViewTextStyle"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/title_catagory" />
+
+      </LinearLayout>
+    <LinearLayout
+        android:onClick="OnUploadButtonClicked"
+
+        android:id="@+id/navigation_upload"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/ripple"
+        android:focusable="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icon_camera"
+            android:contentDescription="@string/title_upload"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/navigation_dashboard"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/ripple"
+        android:onClick="OnFollowButtonClicked"
+        android:focusable="true">
+        <ImageView
+            android:id="@+id/ivFollow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icon_follow"
+            android:contentDescription="@string/title_followers" />
+        <TextView
+            android:id="@+id/tvFollow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttontext_follow"
+            style="@style/BottomNavigationViewTextStyle"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navigation_notifications"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/ripple"
+        android:onClick="OnNotificationButtonClicked">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp">
+
+        <ImageView
+            android:id="@+id/ivNoti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icon_notification"
+            android:contentDescription="@string/title_notifications" />
+            <ImageView
+                android:layout_gravity="end"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/notification_background"
+                android:contentDescription="@string/title_notifications" />
+
+            <TextView
+                android:id="@+id/tvBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|top"
+                android:foregroundGravity="right"
+                android:gravity="end"
+                android:paddingRight="4dp"
+                android:text="9"
+                android:textColor="@android:color/white"
+                android:textSize="7sp"
+                android:paddingEnd="4dp" />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tvNoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_notifications"
+            style="@style/BottomNavigationViewTextStyle"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

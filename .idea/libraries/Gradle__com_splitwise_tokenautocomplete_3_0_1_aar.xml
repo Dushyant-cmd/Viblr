@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.splitwise:tokenautocomplete:3.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/89f6c8812d2edc6e03c2d190d70d4aff/transformed/jetified-tokenautocomplete-3.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/89f6c8812d2edc6e03c2d190d70d4aff/transformed/jetified-tokenautocomplete-3.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/89f6c8812d2edc6e03c2d190d70d4aff/transformed/jetified-tokenautocomplete-3.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ed7d2e628200e8ff53c384d3de5ff1c4/transformed/jetified-tokenautocomplete-3.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ed7d2e628200e8ff53c384d3de5ff1c4/transformed/jetified-tokenautocomplete-3.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ed7d2e628200e8ff53c384d3de5ff1c4/transformed/jetified-tokenautocomplete-3.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/478f9730a72b3c1669b169edc32d06de/transformed/jetified-tokenautocomplete-3.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/478f9730a72b3c1669b169edc32d06de/transformed/jetified-tokenautocomplete-3.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/478f9730a72b3c1669b169edc32d06de/transformed/jetified-tokenautocomplete-3.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.splitwise/tokenautocomplete/3.0.1/8366318b71619641b9e4d14d868200d2ae90601e/tokenautocomplete-3.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.splitwise/tokenautocomplete/3.0.1/5eea78fff97ecdff9f2ff3864da6aa69fc618d05/tokenautocomplete-3.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
